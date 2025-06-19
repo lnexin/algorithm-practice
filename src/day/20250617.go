@@ -6,7 +6,7 @@ import (
 
 // 给你一个字符串 caption，表示一个视频的标题。
 //
-//需要按照以下步骤 按顺序 生成一个视频的 有效标签 ©leetcode
+// 需要按照以下步骤 按顺序 生成一个视频的 有效标签 ©leetcode
 func generateTag(caption string) string {
 	rlt := "#"
 	nextUpper := false
