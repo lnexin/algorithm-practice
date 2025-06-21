@@ -45,7 +45,6 @@ func quickSort(nums []int, staInx int, endInx int) {
 	r := endInx
 	hasChange := false
 	for l < r {
-
 		for l < r && nums[r] >= povit {
 			// 找到比目标值小的那个下标
 			hasChange = true
